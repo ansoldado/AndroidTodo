@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/ansoldado/AndroidStudioProjects/Caldroid-master/caldroidSampleActivity/build/intermediates/res/merged/debug/drawable-hdpi-v4/calendar_prev_arrow.png",
+        "source": "/Users/ansoldado/AndroidStudioProjects/Caldroid-master/caldroidSampleActivity/build/intermediates/exploded-aar/Caldroid-master/caldroid/unspecified/res/drawable-hdpi-v4/calendar_prev_arrow.png"
+    },
+    {
+        "merged": "/Users/ansoldado/AndroidStudioProjects/Caldroid-master/caldroidSampleActivity/build/intermediates/res/merged/debug/drawable-hdpi-v4/calendar_next_arrow.png",
+        "source": "/Users/ansoldado/AndroidStudioProjects/Caldroid-master/caldroidSampleActivity/build/intermediates/exploded-aar/Caldroid-master/caldroid/unspecified/res/drawable-hdpi-v4/calendar_next_arrow.png"
+    }
+]

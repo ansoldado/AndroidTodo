@@ -1,0 +1,7 @@
+#Tue Dec 06 15:53:27 CET 2016
+base.0=/Users/ansoldado/AndroidStudioProjects/Caldroid-master/caldroidSampleActivity/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c6347202bc6a7c0352e5d7246009621f460a8e80
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/ansoldado/AndroidStudioProjects/Caldroid-master/caldroidSampleActivity/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_eb777df8b29cadb8c224221d2c54a1e827f7cb67/classes.dex
+base.1=/Users/ansoldado/AndroidStudioProjects/Caldroid-master/caldroidSampleActivity/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_eb777df8b29cadb8c224221d2c54a1e827f7cb67
+file.0=/Users/ansoldado/AndroidStudioProjects/Caldroid-master/caldroidSampleActivity/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c6347202bc6a7c0352e5d7246009621f460a8e80/classes.dex
