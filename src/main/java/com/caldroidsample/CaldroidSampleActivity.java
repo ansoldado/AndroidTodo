@@ -38,13 +38,13 @@ public class CaldroidSampleActivity extends AppCompatActivity {
             ArrayList<Task> tasksList = taskStore.taskList(auxDate);
 
             if(tasksList.size() > 7 ) {
-                caldroidFragment.setBackgroundDrawableForDate(green, auxDate);
+                caldroidFragment.setBackgroundDrawableForDate(red, auxDate);
             } else {
                 if(tasksList.size() >= 5) {
                     caldroidFragment.setBackgroundDrawableForDate(orange, auxDate);
                 } else {
                     if(tasksList.size() > 0)
-                        caldroidFragment.setBackgroundDrawableForDate(red, auxDate);
+                        caldroidFragment.setBackgroundDrawableForDate(green, auxDate);
                 }
             }
             cal.add(Calendar.DAY_OF_MONTH, 1);
@@ -131,6 +131,7 @@ public class CaldroidSampleActivity extends AppCompatActivity {
             @Override
             public void onSelectDate(Date date, View view) {
                 Intent intent = new Intent(view.getContext(), DayTasks.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
                 String SELECTED_DATE="SELECTED_DATE";
                 intent.putExtra(SELECTED_DATE, date.toString());
                 startActivity(intent);

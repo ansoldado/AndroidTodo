@@ -16,7 +16,8 @@
         android:cursorVisible="false"
         android:focusable="false"
         android:focusableInTouchMode="false"
-        android:height="40dp" />
+        android:height="40dp"
+        android:textSize="36dp" />
 
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -33,17 +34,22 @@
             android:layout_height="wrap_content"
             android:id="@+id/AddTask" />
 
-        <Button
+       <!-- <Button
             android:text="-"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/RemoveTask" />
-
+-->
         <Button
             android:text="Atras"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/Back" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/android:list"></ListView>
 
     </LinearLayout>
 </LinearLayout>
